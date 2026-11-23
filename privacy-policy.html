@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Leonida Companion</title>
+<meta name="description" content="Privacy policy for the Leonida Companion Android app. No data is collected, transmitted or shared.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f3f8;
+    --text: #1c1a24;
+    --muted: #5a5468;
+    --accent: #c3005f;
+    --border: #e2dbe8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0a1f;
+      --surface: #15132e;
+      --text: #ede8f7;
+      --muted: #b0a8c6;
+      --accent: #ff2e88;
+      --border: #2c2748;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 72px;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  header {
+    padding: 48px 0 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 {
+    font-size: 1.2rem;
+    margin: 40px 0 12px;
+    padding-top: 8px;
+    color: var(--accent);
+  }
+  .updated { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  .lede {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 24px 0 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.9em;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Privacy Policy — Leonida Companion</h1>
+  <p class="updated">Last updated: 21 November 2026</p>
+</header>
+
+<p>Leonida Companion (&ldquo;the app&rdquo;) is published by
+<strong>quietcodeworks</strong> (&ldquo;we&rdquo;, &ldquo;us&rdquo;). This
+policy explains what the app does with your information.</p>
+
+<p class="lede"><strong>The short version:</strong> the app collects nothing
+and sends nothing anywhere. Everything you type stays on your phone.</p>
+
+<h2>1. What we collect</h2>
+<p><strong>Nothing.</strong></p>
+<p>We do not collect, transmit, store on our servers, sell, or share any
+personal data. We operate no servers and have no way to see anything you
+enter.</p>
+<p>The app contains no analytics, no crash reporting SDK, no advertising
+network, no social login, no tracking pixels and no user accounts.</p>
+
+<h2>2. What you enter, and where it lives</h2>
+<p>Everything you create in the app &mdash; tracker items, cheats, vehicles,
+shopping goals, income sources, play sessions, and your settings &mdash; is
+written to a private database inside the app&rsquo;s own storage on your
+device.</p>
+<p>That storage is sandboxed by Android: other apps cannot read it, and neither
+can we. The data is removed when you uninstall the app, or when you use
+<strong>Settings &rarr; Delete all data</strong> inside it.</p>
+
+<h3>Backups you create yourself</h3>
+<p>Pro users can export a backup to a single JSON file. The app writes that
+file only to the exact location you pick in your device&rsquo;s file picker.
+Once the file exists, it is an ordinary file on your device or in whatever
+storage provider you chose, and it is governed by that provider&rsquo;s terms
+rather than by this policy. We never see it.</p>
+
+<h3>Android system backup</h3>
+<p>The app allows Android&rsquo;s standard backup and device-transfer feature,
+which is a function of your device and your Google account, not of this app. If
+you have that feature switched on, Android may copy the app&rsquo;s data to
+your Google account so it can be restored to a new phone. That transfer is
+handled entirely by Google and is covered by the Google Privacy Policy. You can
+disable it in your Android settings. We have no access to those backups.</p>
+
+<h2>3. Purchases</h2>
+<p>Leonida Companion offers one optional, one-time in-app purchase
+(&ldquo;Pro unlock&rdquo;). Purchases are processed entirely by
+<strong>Google Play Billing</strong>.</p>
+<p>We never see, receive or store your payment details, card number, billing
+address or Google account. The app asks Google Play whether this device&rsquo;s
+Google account owns the Pro product, and stores only a single yes/no flag
+locally so that Pro keeps working when you are offline.</p>
+<p>Google&rsquo;s handling of your purchase is covered by the
+<a href="https://play.google.com/intl/en/about/play-terms/">Google Play Terms of Service</a>
+and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>4. Permissions</h2>
+<table>
+  <thead>
+    <tr><th>Permission</th><th>Why</th><th>Required?</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>POST_NOTIFICATIONS</code></td>
+      <td>To show the ongoing &ldquo;session running&rdquo; notification while
+      the Play journal timer is active. Requested only at the moment you first
+      start a timer, on Android 13 and above.</td>
+      <td>No. Declining it only means no notification; the timer still works.</td>
+    </tr>
+    <tr>
+      <td><code>com.android.vending.BILLING</code></td>
+      <td>Added automatically by the Google Play Billing library so the app can
+      offer the Pro purchase.</td>
+      <td>Yes, for purchases.</td>
+    </tr>
+  </tbody>
+</table>
+<p>The app does <strong>not</strong> request the internet permission. It has no
+network code of its own; the only network traffic is whatever the Google Play
+Billing service performs within Google Play itself.</p>
+<p>The app requests no storage permission. Backup export and import use
+Android&rsquo;s Storage Access Framework, where you choose the file and the
+system grants access to that one file only.</p>
+
+<h2>5. Children</h2>
+<p>The app is not directed at children and collects no data from anyone,
+including children.</p>
+
+<h2>6. Your rights</h2>
+<p>Because we hold no data about you, there is nothing for us to disclose,
+correct, export or erase on request. You are in full control of your own data:
+export it with the backup feature, or erase it with
+<strong>Settings &rarr; Delete all data</strong> or by uninstalling the app.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>If this policy changes, the updated version will be published at this same
+address with a new &ldquo;last updated&rdquo; date. Because the app collects
+nothing, we do not expect material changes.</p>
+
+<h2>8. Contact</h2>
+<p><strong>quietcodeworks</strong><br>
+<a href="mailto:leonidacompanion1@gmail.com">leonidacompanion1@gmail.com</a></p>
+
+<footer>
+  <p>Unofficial fan-made app. Not affiliated with, endorsed by, or connected to
+  Rockstar Games or Take-Two Interactive. All trademarks belong to their
+  respective owners.</p>
+</footer>
+
+</main>
+</body>
+</html>
